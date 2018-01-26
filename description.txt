@@ -1,0 +1,23 @@
+In this analysis I am finding out peoples sentiment about Exams.
+People always have both types of sentiments about exams.They can be happy or sad based on the exam schedule,examination break,
+results or on completion.
+
+collect.py(Collecting training and test data)
+I am collecting tweets which has exams using search API of twitter and classifying them as 
+Positive and negative sentiment based on train data which will be used to train model.
+Also I am testing my model based on the test data collected from twitter
+to find out how efficient my model is.
+
+Note:Please run the collect.py until it completes so that we can fetch both training and testing data.It takes only few minutes.
+If halted in between and testing data is not fetched then classify.py will not work since we are predicting sentiments based on the testing data.  
+
+cluster.py       	
+In cluster.py I am finding out users who has tweeted about the exam and using there id 
+From this information I am creating graph which will show me different clusters based on  
+girvan newman algorithm. Using this information I am finding out average user per community and total number of community. 
+
+classify.py
+In classify.py I am finding out positive and negative sentiments of people from tweets collected.
+For finding out different sentiments(positive/negative) of people,I am training my model using train data which 
+is classified using AFINN. Using my model on testing data, I am predicting the tweets representing positive or negative sentiments.
+

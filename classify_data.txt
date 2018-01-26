@@ -1,0 +1,8 @@
+Number of instances per class found: 
+Number of instances of Positive class found: 179
+Number of instances of Negative class found: 90
+
+One example from each class: 
+Example of Positive Class: 
+RT @yagirlmuna: @ohhelloitsbella you know for each exam I studied &amp; than I go to take the exam and I’m like what the fuck is this, I’m conv…
+Example of Negative Class: 
